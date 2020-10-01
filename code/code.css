@@ -99,13 +99,13 @@ background: white; !important
     font-weight: 400;
     line-height: 1.667;
     margin-bottom: 45px;
-}
+    }
 
 
 /* about section */
 .about{
 	width: 100%;
-	padding: 100px 0;
+	/* padding: 100px 0; */
     color: #3a414e;
 	
 }
@@ -118,10 +118,8 @@ background: white; !important
 }
 .title p{
 	font-family: 'Roboto', sans-serif;
-	margin-left: 200px;
-    margin-right: 200px;
-    color: #797979;
-    
+	color: #797979;
+    text-align: center;
 
 }
 
@@ -153,6 +151,8 @@ background: white; !important
 .service-1 p{
 	font-family: 'Roboto', sans-serif;
     color: #797979;
+  
+
 
 }
 
@@ -160,6 +160,7 @@ background: white; !important
 	width: 100%;
 	background: #FAF9FF;
 	padding: 80px 0;
+    text-align: center;
 }
 
 .feature h1{
@@ -173,6 +174,7 @@ background: white; !important
 .feature p{
 	font-family: 'Roboto', sans-serif;
     color: #797979;
+    text-align: center;
 
 }
 
@@ -222,8 +224,7 @@ button {
 }
 .mid-content p{
 	font-family: 'Roboto', sans-serif;
-	margin-left: 220px;
-    margin-right: 220px;
+	text-align: center !important;
     color: #797979;
 
 }
@@ -268,7 +269,7 @@ button {
 }
 .solution img{
     position: relative;
-    left: -60px;
+    
 }
 
 .solution .col-lg-6 h2{
@@ -392,8 +393,7 @@ button {
 }
 .testimonial p{
     font-family: 'Roboto', sans-serif;
-    margin-left: 220px;
-    margin-right: 220px;
+    text-align: center;
     color: #797979;
 }
 
@@ -432,13 +432,17 @@ button {
 
 .testimonial .owl-dots .owl-dot.active span {
     background: #21146a;
+        border-radius: 0 !important;
+        border: none !important;
 }
+
 
 .testimonial .owl-dots .owl-dot span {
     width: 20px;
     height: 6px;
     background: #d3d2d5;
-        margin: 5px 10px;
+        /* margin: 5px 10px; */
+        padding: 0 !important;
     }
 
 
