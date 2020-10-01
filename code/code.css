@@ -452,12 +452,11 @@ button {
 .clients{
     width: 100%;
     padding: 60px 0;
-    padding-left: 85px;
 }
 
 .owl-carousel .owl-item img{
     width: auto !important;
-    
+    display: inline-block;
     }
 
 .clients img{
