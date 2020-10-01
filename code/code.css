@@ -468,6 +468,9 @@ button {
     filter: none;
     opacity: 1;
 }
+.clients .owl-theme .owl-dots .owl-dot span{
+    display: none;
+}
 
 /* footer */
 .footer-area {
